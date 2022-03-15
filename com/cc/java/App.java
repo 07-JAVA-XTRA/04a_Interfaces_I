@@ -19,7 +19,9 @@ public class App {
         output(drone.fly());
         output(worker.fly());
 
-  
+        // Abstarkte Klassen KÖNNEN NICHT instanziiert werden!
+        // HoneyBee honeyBee = new HoneyBee();
+        
     }
 
     private static void output(String outputStr) {
